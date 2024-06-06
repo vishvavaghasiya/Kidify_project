@@ -1,0 +1,114 @@
+.instagram-gallery__actions {
+    display: none;
+}
+.instagram-gallery-item {
+    padding: 0 !important;
+}
+.instagram-gallery-list{
+    margin-left: -100px;
+    margin-right: -100px;
+}
+#instagram-gallery-feed-0{
+    overflow-x: hidden;
+}
+#instagram-gallery-feed-0.instagram-gallery-feed .instagram-gallery-item .instagram-gallery-item__media-mask{
+    background-color: rgba( 0, 0, 0, .3 ) !important;
+}
+
+/* wc boost variation swatches */
+.product form.cart .variations {
+    margin-top: 0 !important;
+}
+.product form.cart .variations tr th,
+.product form.cart .variations tr td{
+    display: block;
+    width: 100%;
+}
+.product form.cart .variations tr td{
+    padding-left: 5px !important;
+}
+.product form.cart .variations label{
+    color: #1C1D1D;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 400;
+    display: inline-block;
+    margin-right: 9px;
+}
+.wcboost-variation-swatches__item{
+    box-shadow: none !important;
+    border: 1px solid #DBE2E5;
+    outline: none !important;
+}
+.wcboost-variation-swatches__item:hover,
+.wcboost-variation-swatches__item:focus{
+    box-shadow: none;
+}
+.wcboost-variation-swatches__item:not(.item-color).selected,
+.wcboost-variation-swatches__item:not(.item-color):hover{
+    border-color: #9F86D9;
+    background-color: #9F86D9 !important;
+}
+.wcboost-variation-swatches__item.selected span,
+.wcboost-variation-swatches__item:hover span {
+    color: #fff;
+}
+.wcboost-variation-swatches--color .wcboost-variation-swatches__item {
+    border: 0;
+}
+.product form.cart .variations tr th, .product form.cart .variations tr td {
+    padding-left: 0px !important;
+}
+.box-product-info .list-color{
+    padding-top: 0 !important;
+}
+.box-product-info .list-color li {
+	max-width: 50px;
+}
+.box-product-info .list-color {
+	padding-top: 10px;
+}
+.box-product-info .list-color li {
+    margin-bottom: 0px;
+    max-width: 30px;
+    padding: 0;
+    margin: 0 0.3em 0 0.3em;
+}
+.box-product-info .list-color li .box-circle-color {
+	height: 30px;
+	width: 30px;
+	line-height: 26px;
+}
+.box-product-info .list-color li .box-circle-color a {
+	width: 24px;
+	height: 24px;
+    display: block;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    vertical-align: middle;
+}
+.box-product-info .list-color li .box-circle-color a:hover,
+.box-product-info .list-color li.selected .box-circle-color a {
+    background-image: url(../img/shop/check.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.box-product-info a.reset_variations {
+    font-size: 14px !important;
+    margin-top: 10px;
+    display: none;
+}
+.single-product .product-image-slider figure {
+    margin-top: 0;
+}
+.box-account-wrapper.variable .box-product-info > .block-quantity,
+.product-type-variable .box-product-info > .block-quantity {
+    display: none;
+}
+.woocommerce-variation-price{
+    margin-bottom: 10px;
+}
+/* home 5 */
+.nav-main-menu ul li:nth-child(1) a {
+    padding-left: 0;
+}
