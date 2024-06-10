@@ -1,3 +1,38 @@
+// import * as React from 'react';
+// import Box from '@mui/material/Box';
+// import InputLabel from '@mui/material/InputLabel';
+// import MenuItem from '@mui/material/MenuItem';
+// import FormControl from '@mui/material/FormControl';
+// import Select, { SelectChangeEvent } from '@mui/material/Select';
+
+// export default function BasicSelect() {
+//   const [age, setAge] = React.useState('');
+
+//   const handleChange = (event: SelectChangeEvent) => {
+//     setAge(event.target.value as string);
+//   };
+
+//   return (
+//     <Box sx={{ minWidth: 120 }}>
+//       <FormControl fullWidth>
+//         <InputLabel id="demo-simple-select-label">Age</InputLabel>
+//         <Select
+//           labelId="demo-simple-select-label"
+//           id="demo-simple-select"
+//           value={age}
+//           label="Age"
+//           onChange={handleChange}
+//         >
+//           <MenuItem value={10}>Ten</MenuItem>
+//           <MenuItem value={20}>Twenty</MenuItem>
+//           <MenuItem value={30}>Thirty</MenuItem>
+//         </Select>
+//       </FormControl>
+//     </Box>
+//   );
+// }
+
+
 import React from 'react'
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 // import Footer_1 from '../Wishlist/Footer_1';
@@ -26,40 +61,19 @@ const Shop_1 = () => {
             </div>
         <img className='  bg-cover' src='./src/assets/shop_bg.png ' width=""></img>
 
-        <h1 className='pt-[250px] text-2xl text-indigo-400 font-bold'>POPULAR BRANDS</h1>
-        <img className='ml-[80px] mt-[40px] h-12 ' src="./src/assets/Shop/logo-1.webp" alt="" />
-        <img className='ml-[300px] mt-[-50px] h-12 ' src="./src/assets/Shop/logo-2.webp" alt="" />
-        <img className='ml-[460px] mt-[-50px] h-12 ' src="./src/assets/Shop/logo-3.webp" alt="" />
-        <img className='ml-[640px] mt-[-55px] h-12 ' src="./src/assets/Shop/logo-4.webp" alt="" />
-        <img className='ml-[780px] mt-[-45px] h-12 ' src="./src/assets/Shop/logo-5.webp" alt="" />
-        <img className='ml-[950px] mt-[-50px] h-12 ' src="./src/assets/Shop/logo-6.webp" alt="" />
-        <img className='ml-[170px] mt-[13px] h-14  ' src="./src/assets/Shop/logo-7.webp" alt="" />
-        <img className='ml-[380px] mt-[-55px] h-12 ' src="./src/assets/Shop/logo-8.webp" alt="" />
-        <img className='ml-[510px] mt-[-50px] h-12 ' src="./src/assets/Shop/logo-9.webp" alt="" />
-        <img className='ml-[690px] mt-[-50px] h-12 ' src="./src/assets/Shop/logo-10.webp" alt="" />
-        <img className='ml-[870px] mt-[-50px] h-12 ' src="./src/assets/Shop/logo-11.webp" alt="" />
-
-        <div>
-          <div className='text-3xl font-bold ml-[-990px] mt-[-300px]'>Filter</div>
-        </div>
-
-        <div className='flex justify-around relative overflow-hidden  -ml-40'>
-        <img className='h-[180px] w-[180px] mt-28 hover:scale-[1.05]' src="./src/assets/asset 40.png" alt="" />
-        <img className='h-[180px] w-[180px] mt-28 hover:scale-[1.05]' src="./src/assets/asset 43.png" alt="" />
-        <img className='h-[180px] w-[180px] mt-28 hover:scale-[1.05]' src="./src/assets/asset 42.png" alt="" />
-        <img className='h-[180px] w-[180px] mt-28 hover:scale-[1.05]' src="./src/assets/asset 45.png" alt="" />
-        <img className='h-[180px] w-[180px] mt-28 hover:scale-[1.05]' src="./src/assets/asset 41.png" alt="" />
-        <img className='h-[180px] w-[180px] mt-28 hover:scale-[1.05]' src="./src/assets/asset 44.png" alt="" />
-        <img className='h-[180px] w-[180px] mt-28 hover:scale-[1.05]' src="./src/assets/asset 42.png" alt="" />
-        <img className='h-[180px] w-[180px] mt-28 hover:scale-[1.05]' src="./src/assets/asset 45.png" alt="" />
-        <div className='h-8 w-64 mt-[190px] ml-20 rounded-md font-bold absolute bg-white text-purple-400 '>INSTAGRAM FEED</div>        */}
-        </div>
-
-        </div> 
+         <div className='ml-[-990px] mt-16 text-3xl font-semibold'>Filter</div>
+         <div className='ml-[-700px] -mt-5 text-xs'>Clear</div>
+         <div className='h-[1px] w-[250px] ml-16 bg-slate-300'></div>
+         {/* <div className='ml-[-990px] mt-6 font-semibold'>Categories</div> */}
 
 
-        
-        
+
+         {/* <div className='ml-[-300px] mt-[-70px] text-xs'>Showing 1–9 of 79 results</div>
+         <div className='h-[1px] w-[]'></div> */}
+
+         
+
+        </div>    
     </div>
   )
 }
